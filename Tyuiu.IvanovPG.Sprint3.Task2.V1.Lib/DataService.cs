@@ -9,10 +9,12 @@ namespace Tyuiu.IvanovPG.Sprint3.Task2.V1.Lib
             double sumSeries = 0;
             do
             {
-                sumSeries = sumSeries + Math.Sin(startValue) * Math.Pow((1 / 2), 2);
+                sumSeries = sumSeries + (Math.Sin(startValue) * (Math.Pow((0.5), 2)));
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(sumSeries, 3);
         }
     }
 }
+//Math.Sin(i) * (Math.Pow((1/2), 2))
+//sumSeries = sumSeries + Math.Sin(startValue) * Math.Pow((1 / 2), 2);

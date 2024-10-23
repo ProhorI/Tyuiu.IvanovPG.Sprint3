@@ -2,7 +2,6 @@
 
 using tyuiu.cources.programming.interfaces.Sprint3;
 
-{
     public class DataService : ISprint3Task0V11
 {
     public double GetSumSeries(int value, int startValue, int stopValue)

@@ -16,7 +16,7 @@ namespace Tyuiu.IvanovPG.Sprint3.Task6.V26.Test
 
             double res = ds.GetSumTheDivisors(startValue, stopValue);
 
-            double wait = 31;
+            double wait = 33;
         }
     }
 }

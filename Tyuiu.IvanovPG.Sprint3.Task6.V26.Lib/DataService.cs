@@ -7,19 +7,19 @@ namespace Tyuiu.IvanovPG.Sprint3.Task6.V26.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int x = 0;
-            int sum = 0;
-            for (x = startValue; x < stopValue; x++) 
+            int x;
+            int count = 0;
+            for (x = startValue; x <= stopValue; x++)
             {
-                for (int d = 1; d <= x; d++) 
+                for (int d = 1; d <= x; d++)
                 {
-                    if (x % d == 0) 
+                    if (x % d == 0)
                     {
-                        sum++;
+                        count += 1;
                     }
                 }
             }
-            return sum;
+            return count;
         }
     }
 }

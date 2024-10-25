@@ -15,14 +15,14 @@ namespace Tyuiu.IvanovPG.Sprint3.Task5.V18
 
             int x = 5;
             int startValue1 = 1;
-            int startValue2 = 1;
             int stopValue1 = 3;
+            int startValue2 = 1;
             int stopValue2 = 11;
 
             Console.WriteLine("переменная х = " + x);
             Console.WriteLine("начало 1" + startValue1);
-            Console.WriteLine("начало 2" + startValue2);
             Console.WriteLine("конец 1" + stopValue1);
+            Console.WriteLine("начало 2" + startValue2);
             Console.WriteLine("конец 2" + stopValue2);
 
             Console.WriteLine("**************************************************************************************");

@@ -13,7 +13,7 @@ namespace Tyuiu.IvanovPG.Sprint3.Task5.V18.Lib
             {
                 for (j = startValue2; j <= stopValue2; j++) 
                 {
-                    sumSeries = sumSeries + Math.Cos(x) + (j * j) / 2; ;
+                    sumSeries = sumSeries + Math.Cos(x) + (j * j) / 2.0; ;
                 }
             }
             return Math.Round(sumSeries, 3);
@@ -22,3 +22,4 @@ namespace Tyuiu.IvanovPG.Sprint3.Task5.V18.Lib
     }
 }
 //(Math.Cos(x) + (Math.Pow(startValue2, 2) / 2))
+//768.361

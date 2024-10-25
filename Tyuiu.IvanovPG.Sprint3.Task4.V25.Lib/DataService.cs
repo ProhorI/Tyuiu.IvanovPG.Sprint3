@@ -8,7 +8,7 @@ namespace Tyuiu.IvanovPG.Sprint3.Task4.V25.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 1;
+            double res = 0;
             for (int x = startValue; x <= stopValue; x++) 
             {
                 if (x == 0)
@@ -17,7 +17,7 @@ namespace Tyuiu.IvanovPG.Sprint3.Task4.V25.Lib
                 }
                 else 
                 {
-                    res = x / (Math.Cos(x)-Math.Sin(x));
+                    res = res +  x / (Math.Cos(x) - Math.Sin(x));
                 }
             }
             return Math.Round(res, 3);
